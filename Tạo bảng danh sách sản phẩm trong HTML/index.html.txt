@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Danh sách sản phẩm</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 600px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Danh sách sản phẩm</h1>
+
+    <table>
+        <tr>
+            <th>Tên sản phẩm</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+        </tr>
+
+        <tr>
+            <td>Điện thoại Samsung</td>
+            <td>10.000.000 VNĐ</td>
+            <td>5</td>
+        </tr>
+
+        <tr>
+            <td>Laptop Dell</td>
+            <td>20.000.000 VNĐ</td>
+            <td>3</td>
+        </tr>
+
+        <tr>
+            <td>Tai nghe Bluetooth</td>
+            <td>500.000 VNĐ</td>
+            <td>10</td>
+        </tr>
+
+        <tr>
+            <td>Chuột không dây</td>
+            <td>300.000 VNĐ</td>
+            <td>8</td>
+        </tr>
+    </table>
+
+</body>
+</html>
